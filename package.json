@@ -2,7 +2,9 @@
   "name": "ts-uml",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "add:package": "nx generate @nrwl/js:library --buildable"
+  },
   "private": true,
   "devDependencies": {
     "@nrwl/cli": "14.5.8",
